@@ -16,7 +16,7 @@ public enum StateEvent {
      */
     EVENT_DOWNLOAD_FAILED,
     /**
-     * 现在成功
+     * 下载成功
      */
     EVENT_DOWNLOAD_SUCCESS,
     /**

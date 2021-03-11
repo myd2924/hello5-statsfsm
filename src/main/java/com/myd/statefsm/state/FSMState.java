@@ -13,7 +13,7 @@ public abstract class FSMState {
      * 一个状态必须要持有状态环境对象stateContext，
      * 才能在状态迁移的时候，更新stateContext中的当前状态
      */
-    private StateContext stateContext;
+    protected StateContext stateContext;
 
     public void setStateContext(StateContext stateContext){
         this.stateContext = stateContext;
