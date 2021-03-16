@@ -10,7 +10,9 @@ public class Singleton {
 
     private static volatile Singleton instance = null;
 
-
+    /**
+     * 私有化构造器
+     */
     private Singleton(){
         System.out.println("构造函数私有，不让外部访问");
     }
